@@ -18,7 +18,12 @@ public class CacheCaller {
 		}
 		
 		Cacheable record = CacheAccessor.getInstance().getRecord(args[0], Long.valueOf(args[1]));
-		System.out.println("Record: " + record.displayRecords());
+		if(record != null) {
+			System.out.println("Record: " + record.displayRecords());	
+		} else {
+			System.out.println("Record not found for table[" + args[0] + "] pk[" + args[1] + "] in cache");	
+		}
+		
 		
 	}
 }
