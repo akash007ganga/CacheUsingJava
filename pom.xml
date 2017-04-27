@@ -32,7 +32,7 @@
 				<configuration>
 					<programs>
 						<program>
-							<mainClass>com.test.TestCache</mainClass>
+							<mainClass>accessor.CacheCaller</mainClass>
 							<name>CacheUsingJava</name>
 						</program>
 					</programs>
@@ -55,7 +55,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>./lib/</classpathPrefix>
-							<mainClass>com.test.TestCache</mainClass>
+							<mainClass>accessor.CacheCaller</mainClass>
 						</manifest>
 						<!--Resources will be placed under conf/ -->
 						<manifestEntries>

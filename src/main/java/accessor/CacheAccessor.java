@@ -16,7 +16,7 @@ import enums.CacheTableName;
  * The singletone Class CacheAccessor. It will build the cache only once.
  * We have implemented Serializable for future use if any
  */
-public class CacheAccessor implements Serializable{
+public final class CacheAccessor implements Serializable{
 
 //~ Constant Attributes ====================================================
 	
